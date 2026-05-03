@@ -1,0 +1,36 @@
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #252323;
+    color: #ccc;
+    height: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.cartao {
+    border: 0.1rem solid #CCC;
+    border-radius: .5rem;
+    box-shadow: .4rem .3rem .3rem .03rem #eee;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    width: 15rem;
+    height: 28rem;
+}
+
